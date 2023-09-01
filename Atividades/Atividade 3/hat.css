@@ -1,0 +1,208 @@
+.looks {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+div.relative_hat {
+    position: relative;
+    width: 320px;
+    height: 40px;
+    left: 25px;
+    border: 1px solid grey;
+} 
+  
+div.absolute_hat1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+div.absolute_hat2 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: white;
+}
+div.absolute_hat3 {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    background-color: white;
+}
+div.absolute_hat4 {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    background-color: white;
+}
+div.absolute_hat5 {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    background-color: white;
+}
+div.absolute_hat6 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    background-color: red;
+}
+div.absolute_hat7 {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    background-color: red;
+}
+div.absolute_hat8 {
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    background-color: red;
+}
+div.absolute_hat9 {
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    background-color: red;
+}
+div.absolute_hat10 {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    background-color: red;
+}
+div.absolute_hat11 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: white;
+}
+div.absolute_hat12 {
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    background-color: white;
+}
+div.absolute_hat13 {
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    background-color: white;
+}
+div.absolute_hat14 {
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    background-color: white;
+}
+div.absolute_hat15 {
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    background-color: white;
+}
+div.absolute_hat16 {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    background-color: white;
+}
+
+div.absolute_hat17 {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background-color: white;
+}
+div.absolute_hat18 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+}
+div.absolute_hat19 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    background-color: white;
+}
+div.absolute_hat20 {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    background-color: white;
+}
+div.absolute_hat21 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    background-color: red;
+}
+div.absolute_hat22 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    background-color: red;
+}
+div.absolute_hat23 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    background-color: red;
+}
+div.absolute_hat24 {
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    background-color: red;
+}
+div.absolute_hat25 {
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    background-color: red;
+}
+div.absolute_hat26 {
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    background-color: red;
+}
+div.absolute_hat27 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    background-color: red;
+}
+div.absolute_hat28 {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    background-color: red;
+}
+div.absolute_hat29 {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    background-color: red;
+}
+div.absolute_hat30 {
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    background-color: white;
+}
+div.absolute_hat31 {
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    background-color: white;
+}
+div.absolute_hat32 {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    background-color: white;
+}
