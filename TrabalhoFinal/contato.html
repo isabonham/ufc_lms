@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contato</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-l">
+            <a href="index.html"><img src="./Ativos/Logo/Vermelho-logo-simples.svg" alt="FIBRA"
+                    class="logo-header"></img></a>
+        </div>
+        <nav>
+            <div class="dropdown_container">
+                <p>Produtos</p>
+                <div class="dropdown">
+                    <div class="dropdown_itens">
+                        <a class="subitem_menu" href="produtos.html">Todos</a>
+                        <a class="subitem_menu" href="produtos.html">Redes</a>
+                        <a class="subitem_menu" href="produtos.html">Redes cadeira</a>
+                        <a class="subitem_menu" href="produtos.html">Mantas</a>
+                        <a class="subitem_menu" href="produtos.html">Ecobags</a>
+                    </div>
+                </div>
+            </div>
+            <a class="item_menu" href="sobre.html">Sobre</a>
+            <a class="item_menu" href="contato.html">Contato</a>
+        </nav>
+        <div class="header-r">
+            <button class="botao-icone-primario" id="sacola"><a href="#"><img src="./Ativos/Icones/sacola.svg"
+                        class="icone"></img></a></button>
+        </div>
+    </header>
+
+    <section class="cc">
+        <h1>Converse conosco</h1>
+        <div class="text-p">
+            <br>
+            <p> Nós da equipe FIBRA valorizamos a sua opinião. Esta página é dedicada a sua voz. Este espaço é aberto
+                para que 
+                compartilhe <br> suas experiências e tire suas dúvidas. Obrigado por ser parte da família FIBRA. <br>
+            </p>
+        </div>
+    </section>
+
+    <section class="df">
+        <h1>Dúvidas Frequentes</h1>
+        <div class="acordion">
+            <div class="acordion-item">
+                <input type="checkbox" name="acordion" id="acordion-1">
+                <label for="acordion-1">De onde vem o algodão da Abrace?</label>
+                <div class="acordion-conteudo">O acabamento dos produtos da Linha Abrace são feitos por artesães e
+                    artesãos do
+                    nordeste brasileiro<br>
+                </div>
+            </div>
+            <div class="acordion-item">
+                <input type="checkbox" name="acordion" id="acordion-2">
+                <label for="acordion-2">Como entro em contato com o serviço ao cliente?</label>
+                <div class="acordion-conteudo"> Você pode entrar em contato pelo "Fale conosco" ou verificar nossas
+                    redes
+                    sociais. @fibrace <br>
+                </div>
+            </div>
+            <div class="acordion-item">
+                <input type="checkbox" name="acordion" id="acordion-3">
+                <label for="acordion-3">Posso modificar ou cancelar meu pedido depois de feito?</label>
+                <div class="acordion-conteudo"> Você não pode modificar o pedido, então caso tenha selecionado produtos
+                    por
+                    engano ou tenha mudado de ideia em relação a sua compra, é necessário que cancele o pedido e
+                    refaça-o. O valor
+                    do pedido será devolvido para seu banco em até 30 dias, dependendo da forma de pagamento que tenha
+                    sido
+                    efetuado.
+                </div>
+            </div>
+            <div class="acordion-item">
+                <input type="checkbox" name="acordion" id="acordion-4">
+                <label for="acordion-4">Posso lavar os produtos na máquina?</label>
+                <div class="acordion-conteudo"> É importante que verifique as instruções contidas na etiqueta do seu
+                    produto.
+                    Cada produto FIBRA tem seus cuidados específicos.
+                </div>
+            </div>
+        </div>
+        <br> <br> <br>
+    </section>
+
+    <div class="contact-form-container">
+        <h2>Fale conosco</h2>
+        <p>Dúvidas? Reclamações? Elogios? Deixe uma mensagem para nós.</p>
+        <form action="https://www.w3schools.com/action_page.php" method="POST">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="subject">Assunto</label>
+            <input type="text" id="subject" name="subject" required>
+    
+            <label for="message-type">Tipo da mensagem</label>
+            <select id="message-type" name="message_type">
+                <option value="duvida">Dúvida</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="elogio">Elogio</option>
+            </select>
+    
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    </body>
+
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="Ativos/Selo/selo-completo.svg" alt="Selo FIBRA" class="logo-footer-dinamico">
+        </div>
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>Conta</h4>
+                <ul>
+                    <li><a href="#">Meus dados</a></li>
+                    <li><a href="#">Meus pedidos</a></li>
+                    <li><a href="#">Meus cartões</a></li>
+                    <li><a href="#">Meus endereços</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#">Sobre a Abrace</a></li>
+                    <li><a href="#">Dúvidas frequentes</a></li>
+                    <li><a href="#">Fale conosco</a></li>
+                    <li><a href="#">Trocas e devoluções</a></li>
+                    <li><a href="#">Termos e condições</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Políticas de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>Horário de atendimento via e-mail e WhatsApp</p>
+                <p>(88) 98765 4321</p>
+                <p>abrace@fibra.com.br</p>
+
+                <div class="social-icons">
+                    <a href="#"><img src="./Ativos/Icones/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="./Ativos/Icones/twitter-x.svg" alt="Twitter"></a>
+                    <a href="#"><img src="./Ativos/Icones/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

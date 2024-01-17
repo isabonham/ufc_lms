@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma';
+}
+
+.navegador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e1b3dff;
+}
+
+.dropdown {
+    width: 200px;
+    text-align: center;
+}
+.dropdown .botao{
+    background-color: #3f5294ff;
+    border: 2px solid #87a1c6ff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 5px #fbe432ff;
+    cursor: pointer;
+}
+
+.dropdown .menu {
+    border-radius: 5px;
+    position: absolute;
+    width: 200px;
+    display: none;
+    margin: 5px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown:hover .menu{
+    display: block;
+    background-color: #3f5294ff;
+    border: 2px solid #87a1c6ff;
+    border-radius: 5px;
+}
+
+.dropdown .menu .link-drop{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: #3f5294ff;
+    border: 2px solid #87a1c6ff;
+    font-family: 'Tahoma';
+    border-radius: 5px;
+}
+
+.dropdown .menu .link-drop:hover {
+    background-color: #87a1c6ff;
+    border: 2px solid #3f5294ff;
+    font-family: 'Tahoma';
+    border-radius: 5px;
+}
+
+.navegador .navegador-links {
+    margin: 5px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tahoma';
+}
+
+.navegador-links .link {
+    margin-right: 30px;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #3f5294ff;
+    border: 2px solid #87a1c6ff;
+    box-shadow: 1px 1px 5px #fbe432ff;
+    font-family: 'Tahoma';
+    border-radius: 5px;
+}
+
+.navegador-links .link:hover {
+    background-color: #87a1c6ff;
+    border: 2px solid #3f5294ff;
+    font-family: 'Tahoma';
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-grow: 0;
+}
+
+.nav-left {
+    display: flex;
+    height: 1200px;
+    width: 20vw;
+    background-color: #0e1b3dff;
+    justify-content: center;
+}
+
+.nav-left-links .link-left {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #3f5294ff;
+    border: 2px solid #87a1c6ff;
+    font-family: 'Tahoma';
+    border-radius: 5px;
+    padding: 5px 60px;
+    margin-top: 30px;
+}
+
+.nav-left-links .link-left:hover {
+    background-color: #87a1c6ff;
+    border: 2px solid #3f5294ff;
+    border-radius: 5px;
+}
+
+.conteudo {
+    background-color: #87a1c6ff;
+    width: 80vw;
+    height: 1200px;
+}
+
+.conteudo .texto {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Tahoma';
+    font-size: 14px;
+}
+
+@keyframes rodar {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.conteudo .loading {
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    margin-left: 300px;
+    border: 20px solid transparent;
+    border-top: 20px solid #fbe432ff;
+    border-radius: 50%;
+    animation-name: rodar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@media screen and (max-width: 600px){  
+    .container {
+        display: block;
+        width: 100%;
+    }
+    
+    .nav-left {
+        display: flex;
+        width: 100%;
+        height: 340px;
+        background-color: black;
+        justify-content: center;
+    }
+    
+    .conteudo {
+        width: 100%;
+        height: 1200px;
+    }
+    
+    .conteudo .texto {
+        display: flex;
+        justify-content: center;
+    }
+    
+    @keyframes rodar {
+        from{
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .conteudo .loading {
+        height: 150px;
+        width: 150px;
+        margin: 40px;
+        border: 20px solid transparent;
+        border-top: 20px solid black;
+        border-radius: 50%;
+        animation-name: rodar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}

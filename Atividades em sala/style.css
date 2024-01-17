@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgb(198, 196, 237);
+    display: flex;
+    justify-content:center;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+}
+
+li {
+    padding: 6px;
+}
+li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 15px;
+
+    box-shadow: 1px 1px 5px;
+}
+
+li a:hover, .dropdown:hover .dropbnt {
+    background-color: rgb(243, 170, 230);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropcontent {
+    position: absolute;
+    display: none;
+    background-color: rgb(198, 196, 237);
+    padding: 12px 16px;
+    text-decoration: none;
+    min-width: none;
+}
+.dropcontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropcontent a:hover {background-color: #ececec;}
+
+.dropdown:hover .dropcontent {
+    display: block;
+}
+
+.container {
+    background-color: rgb(198, 196, 237);
+    display: flex;
+}
+
+.container .mle{
+    width: 20vw;
+    height: 1200;
+}
+.container .mle ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .mle ul li{
+    display: flex;
+    justify-content:center;
+    margin: 15px;
+}
+
+.container .conteudo{
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    height: 1200px;
+}
+
+.container .texto {
+    display: flex;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+@keyframes loading {
+    from{ /* começo do giro */
+        transform: rotate(0deg); /*vai começar do grau 0 */
+    }
+    to{ /* final do grio */
+        transform: rotate(360deg); /*quantos graus ele vai rodar */
+    }
+}
+
+.container .conteudo .girar {
+    height: 100px;
+    width: 100px;
+    margin: 500px;
+    margin-top: 200px;
+
+    border: 20px solid #e5e5e5;
+    border-top: 20px solid rgb(151, 72, 203);
+    border-radius: 50%;
+
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}

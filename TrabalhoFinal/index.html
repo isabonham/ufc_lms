@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FIBRA Início</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-l">
+            <a href="index.html"><img src="./Ativos/Logo/Vermelho-logo-simples.svg" alt="FIBRA"
+                    class="logo-header"></img></a>
+        </div>
+        <nav>
+            <div class="dropdown_container">
+                <p>Produtos</p>
+                <div class="dropdown">
+                    <div class="dropdown_itens">
+                        <a class="subitem_menu" href="produtos.html">Todos</a>
+                        <a class="subitem_menu" href="produtos.html">Redes</a>
+                        <a class="subitem_menu" href="produtos.html">Redes cadeira</a>
+                        <a class="subitem_menu" href="produtos.html">Mantas</a>
+                        <a class="subitem_menu" href="produtos.html">Ecobags</a>
+                    </div>
+                </div>
+            </div>
+            <a class="item_menu" href="sobre.html">Sobre</a>
+            <a class="item_menu" href="contato.html">Contato</a>
+        </nav>
+        <div class="header-r">
+            <button class="botao-icone-primario" id="sacola"><a href="#"><img src="Ativos/Icones/sacola.svg"
+                        class="icone"></img></a></button>
+            <div class="menu-sanduiche">
+                <button class="botao-icone-primario" id="sanduiche"><a href="#"><img src="Ativos/Icones/list.svg"
+                            class="icone"></img></a></button>
+                <nav class="menu-responsivo">
+                    <div class="dropdown-menu-responsivo">
+                        <p>Produtos</p>
+                        <div class="dropdown-repsonsivo">
+                            <div class="dropdown_itens">
+                                <a class="subitem_menu" href="produtos.html">Todos</a>
+                                <a class="subitem_menu" href="produtos.html">Redes</a>
+                                <a class="subitem_menu" href="produtos.html">Redes cadeira</a>
+                                <a class="subitem_menu" href="produtos.html">Mantas</a>
+                                <a class="subitem_menu" href="produtos.html">Ecobags</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="item_menu" href="sobre.html">Sobre</a>
+                    <a class="item_menu" href="contato.html">Contato</a>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="apresentacao">
+            <h1><b>Cuidadosamente <span>sofisticada.</span>
+                    <br> Minuciosamente <span>artesanal.</span></b></h1>
+            <img src="Ativos/Produtos/RedeCadeira.jpg" alt="foto1" id="foto1">
+        </div>
+
+        <div class="novidades">
+            <h2>Novidades</h2>
+            <div class="filtros">
+                <button class="filtro_ativo" id="filtro1">Todos</button>
+                <button class="filtro" id="filtro2">Redes cadeira</button>
+                <button class="filtro" id="filtro3">Mantas</button>
+                <button class="filtro" id="filtro4">Ecobags</button>
+            </div>
+            <div class="produtos_novidades"></div>
+        </div>
+    </main>
+
+    <section class="newsletter">
+        <h1>Acompanhe novos lançamentos</h1>
+        <p>Receba notificação de novos produtos</p>
+        <label for="Seu Email"></label>
+        <input type="email" name="Seu Email" id="email" placeholder="Seu e-mail">
+        <button type="submit">Cadastre-se</button>
+    </section>
+
+    <section class="qualidades-fibra">
+        <div class="item">
+            <img src="Ativos/Qualidade/imagem 1.jpg" alt="Qualidade fibra">
+            <p>Qualidade fibra</p>
+        </div>
+        <div class="item">
+            <img src="Ativos/Qualidade/imagem 2.jpg" alt="Toque de um abraço">
+            <p>Toque de um abraço</p>
+        </div>
+        <div class="item">
+            <img src="Ativos/Qualidade/imagem 3.jpg" alt="Modelos exclusivos">
+            <p>Modelos exclusivos</p>
+        </div>
+        <div class="item">
+            <img src="Ativos/Qualidade/imagem 4.jpg" alt="Algodão orgânico">
+            <p>Algodão orgânico</p>
+        </div>
+    </section>
+</body>
+
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="Ativos/Selo/selo-completo.svg" alt="Selo FIBRA" class="logo-footer-dinamico">
+        </div>
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>Conta</h4>
+                <ul>
+                    <li><a href="#">Meus dados</a></li>
+                    <li><a href="#">Meus pedidos</a></li>
+                    <li><a href="#">Meus cartões</a></li>
+                    <li><a href="#">Meus endereços</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#">Sobre a Abrace</a></li>
+                    <li><a href="#">Dúvidas frequentes</a></li>
+                    <li><a href="#">Fale conosco</a></li>
+                    <li><a href="#">Trocas e devoluções</a></li>
+                    <li><a href="#">Termos e condições</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Políticas de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>Horário de atendimento via e-mail e WhatsApp</p>
+                <p>(88) 98765 4321</p>
+                <p>abrace@fibra.com.br</p>
+
+                <div class="social-icons">
+                    <a href="#"><img src="./Ativos/Icones/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="./Ativos/Icones/twitter-x.svg" alt="Twitter"></a>
+                    <a href="#"><img src="./Ativos/Icones/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
